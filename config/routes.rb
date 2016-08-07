@@ -5,7 +5,7 @@ ReadingListRailsapi::Application.routes.draw do
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 
-    resources :books, except: [:destroy, :update]
+    resources :books
     resources :finished_books
 
   # Example of regular route:
