@@ -6,6 +6,7 @@ ReadingListRailsapi::Application.routes.draw do
   # root 'welcome#index'
 
     resources :books, except: [:destroy, :update]
+    resources :finished_books
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
