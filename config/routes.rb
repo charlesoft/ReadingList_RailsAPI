@@ -7,6 +7,7 @@ ReadingListRailsapi::Application.routes.draw do
 
     resources :books
     resources :finished_books
+    resources :genres
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
