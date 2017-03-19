@@ -7,7 +7,8 @@ This is a single API built using Rails by following TDD.
 Below, there is a simple example of a method from the API, which returns a list of books
 in a JSON format.
 
-```def index
+```ruby
+def index
   books = Book.all
   if rating = params[:rating]
     books = books.where(rating: rating)
@@ -24,7 +25,8 @@ In the main directory of the project, run the command `bundle` to install the ge
 
 This is a example of integration test of the application:
 
-```test 'listing books' do
+```ruby
+test 'listing books' do
   get '/books'
   assert_equal 200, response.status
   assert_equal Mime::JSON, response.content_type
