@@ -17,11 +17,11 @@ def index
 end
 ```
 
-##Installation
+## Installation
 
 In the main directory of the project, run the command `bundle` to install the gems from the Gemfile.
 
-##Tests
+## Tests
 
 This is a example of integration test of the application:
 
@@ -42,7 +42,6 @@ This test is going to do a http get request to the `/book` route, accessing the 
 
 ### Run tests
 
-You can run the tests by following the command line:
-* `rake` Runs all integration tests.
+You can run the tests by using the command line `rake`. This runs all integration tests.
 
 You can see more about other ways to run a specific test in this link http://guides.rubyonrails.org/v4.0.4/testing.html
