@@ -23,7 +23,7 @@ In the main directory of the project, run the command `bundle` to install the ge
 
 ## Tests
 
-This is a example of integration test of the application:
+This is an example of an integration test of the application:
 
 ```ruby
 test 'listing books' do
@@ -38,7 +38,7 @@ test 'listing books' do
 end
 ```
 
-This test is going to do a http get request to the `/book` route, accessing the `BooksController` and `Index` action. Then, it is going to check all assertions. All assertions being true, the test passes.
+This test is going to do a http get request to the `/book` route, accessing the `BooksController` and the `Index` action. Then, it is going to check all assertions. All assertions being true, the test passes.
 
 ### Run tests
 
